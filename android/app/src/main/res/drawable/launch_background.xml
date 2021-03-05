@@ -4,6 +4,6 @@
     <item android:drawable="@color/white" />
     <!-- You can insert your own image assets here -->
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/logo" />
+        <bitmap android:gravity="center" android:src="@drawable/splash" />
     </item>
 </layer-list>

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_it/views/splash.dart';
 
 main() {
   runApp(Taskit());
@@ -13,6 +14,7 @@ class Taskit extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Color(0xff4361EE),
       ),
+      home: SplashScreen(),
     );
   }
 }
