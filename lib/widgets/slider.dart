@@ -25,14 +25,16 @@ class SliderPage extends StatelessWidget {
               Text(
                 description1,
                 style: TextStyle(
-                    fontSize: SizeConfig.textSize(context, 3.5),
-                    fontFamily: bl),
+                  fontSize: SizeConfig.textSize(context, 3.5),
+                  fontFamily: bl,
+                ),
               ),
               Text(
                 description2,
                 style: TextStyle(
-                    fontSize: SizeConfig.textSize(context, 3.5),
-                    fontFamily: bl),
+                  fontSize: SizeConfig.textSize(context, 3.5),
+                  fontFamily: bl,
+                ),
               ),
             ],
           ),
