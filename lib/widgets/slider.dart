@@ -12,7 +12,7 @@ class SliderPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      color: Colors.transparent,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -25,14 +25,14 @@ class SliderPage extends StatelessWidget {
               Text(
                 description1,
                 style: TextStyle(
-                  fontSize: SizeConfig.textSize(context, 3.5),
+                  fontSize: SizeConfig.textSize(context, 5.0),
                   fontFamily: bl,
                 ),
               ),
               Text(
                 description2,
                 style: TextStyle(
-                  fontSize: SizeConfig.textSize(context, 3.5),
+                  fontSize: SizeConfig.textSize(context, 5.0),
                   fontFamily: bl,
                 ),
               ),
